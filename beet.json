@@ -1,7 +1,8 @@
 {
-  "name": "Beet Template",
+  "id": "santas_delight",
+  "name": "Santa's Delight",
   "version": "1.2.0",
-  "description": "A pre-configured template to quickly set up your Minecraft Beet project.",
+  "description": "Adds Christmas decorations, new food items and much more to your Minecraft world!",
   "author": "FoxedDev",
   "output": "build",
   "require": [
