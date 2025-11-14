@@ -1,0 +1,1 @@
+give @s item_frame[item_model="santas_delight:item/tree",custom_name={"color":"white","italic":false,"text":"Christmas Tree"},entity_data={id:"minecraft:item_frame",Tags:["santas_delight.decoration.tree.create"]}] 1
