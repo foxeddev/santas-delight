@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": "minecraft:spruce_leaves",
+    "S": "minecraft:sweet_berries"
+  },
+  "pattern": [
+    "   ",
+    "LSL",
+    " L "
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "santas_delight:item/garland",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true,
+        "Tags": [
+          "santas_delight.decoration.garland.create"
+        ]
+      },
+      "minecraft:item_name": {
+        "color": "white",
+        "text": "Garland"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}
