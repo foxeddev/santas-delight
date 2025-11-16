@@ -16,3 +16,4 @@ as @e[type=item_frame,tag=santas_delight.decoration.wreath.create] at @s:
 as @e[type=interaction,tag=santas_delight.decoration.wreath.interaction] at @s:
     if data entity @s attack run function ./remove
     if block ~ ~ ~ #minecraft:replaceable run function ./remove
+    unless block ^ ^ ^1 #minecraft:replaceable run function ./remove

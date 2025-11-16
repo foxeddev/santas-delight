@@ -56,3 +56,5 @@ as @e[type=interaction,tag=santas_delight.decoration.tree.interaction] at @s:
 
     if data entity @s attack run function ./remove
     if block ~ ~-1 ~ #minecraft:replaceable run function ./remove
+    for i in range(0, 3):
+        unless block ~ ~i ~ #minecraft:replaceable run function ./remove
