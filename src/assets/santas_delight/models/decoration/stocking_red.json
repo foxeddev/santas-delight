@@ -1,0 +1,81 @@
+{
+	"credit": "Made by BronGhast014 with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "santas_delight:item/decoration/stocking",
+		"particle": "santas_delight:item/decoration/stocking"
+	},
+	"elements": [
+		{
+			"name": "hanger",
+			"from": [9.5, 16, 8],
+			"to": [13.5, 19, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [5.5, 3, 6.5, 3.75], "texture": "#0"},
+				"east": {"uv": [5.5, 3, 5.5, 3.75], "texture": "#0"},
+				"south": {"uv": [6.5, 3, 7.5, 3.75], "texture": "#0"},
+				"west": {"uv": [6.5, 3, 6.5, 3.75], "texture": "#0"},
+				"up": {"uv": [6.5, 3, 5.5, 3], "texture": "#0"},
+				"down": {"uv": [7.5, 3, 6.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cuff",
+			"from": [5.5, 14, 6.5],
+			"to": [13.5, 16, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13.5, 17, 8]},
+			"faces": {
+				"north": {"uv": [0.75, 3.75, 2.75, 4.25], "texture": "#0"},
+				"east": {"uv": [0, 3.75, 0.75, 4.25], "texture": "#0"},
+				"south": {"uv": [3.5, 3.75, 5.5, 4.25], "texture": "#0"},
+				"west": {"uv": [2.75, 3.75, 3.5, 4.25], "texture": "#0"},
+				"up": {"uv": [2.75, 3.75, 0.75, 3], "texture": "#0"},
+				"down": {"uv": [4.75, 3, 2.75, 3.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sock",
+			"from": [6, 4, 7],
+			"to": [13, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13.5, 17, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 2.25, 3], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 3], "texture": "#0"},
+				"south": {"uv": [2.75, 0.5, 4.5, 3], "texture": "#0"},
+				"west": {"uv": [2.25, 0.5, 2.75, 3], "texture": "#0"},
+				"up": {"uv": [2.25, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [4, 0, 2.25, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "toe",
+			"from": [3.19449, 2.04956, 7.001],
+			"to": [12.19449, 8.04956, 8.999],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [7.69449, 5.04956, 8]},
+			"faces": {
+				"north": {"uv": [4.75, 0.25, 7, 1.75], "texture": "#0"},
+				"east": {"uv": [4.5, 0.25, 4.75, 1.75], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.25, 0.25, 9.5, 1.75], "texture": "#0"},
+				"west": {"uv": [7, 0.25, 7.25, 1.75], "texture": "#0"},
+				"up": {"uv": [7, 0.25, 4.75, 0], "texture": "#0"},
+				"down": {"uv": [9.25, 0, 7, 0.25], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, 0, 20],
+			"translation": [0, -14.5, -19.25],
+			"scale": [1.8, 1.8, 1.8]
+		}
+	},
+	"groups": [
+		{
+			"name": "stocking",
+			"origin": [7.69449, 4.04956, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

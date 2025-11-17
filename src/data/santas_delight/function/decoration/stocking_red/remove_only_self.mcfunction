@@ -1,0 +1,2 @@
+function ./spawn
+kill @s

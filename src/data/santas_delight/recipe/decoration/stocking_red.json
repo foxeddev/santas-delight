@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": "minecraft:white_wool",
+    "R": "minecraft:red_wool"
+  },
+  "pattern": [
+    "W ",
+    " R"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "santas_delight:item/stocking_red",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true,
+        "Tags": [
+          "santas_delight.decoration.stocking_red.create"
+        ]
+      },
+      "minecraft:item_name": {
+        "color": "white",
+        "text": "Red Stocking"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}
