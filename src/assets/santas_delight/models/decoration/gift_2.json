@@ -1,0 +1,87 @@
+{
+	"credit": "Made by BronGhast014 with Blockbench",
+	"texture_size": [96, 96],
+	"textures": {
+		"0": "santas_delight:item/decoration/gift",
+		"particle": "santas_delight:item/decoration/gift"
+	},
+	"elements": [
+		{
+			"from": [3, 10, 8],
+			"to": [13, 14, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 10, 8]},
+			"faces": {
+				"north": {"uv": [8, 5.5, 9.66667, 6.16667], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 0, 6.16667], "texture": "#missing"},
+				"south": {"uv": [9.66667, 5.5, 11.33333, 6.16667], "texture": "#0"},
+				"west": {"uv": [9.66667, 5.5, 9.66667, 6.16667], "texture": "#missing"},
+				"up": {"uv": [1.66667, 5.66667, 0, 5.66667], "texture": "#missing"},
+				"down": {"uv": [3.33333, 5.66667, 1.66667, 5.66667], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [8, 10, 3],
+			"to": [8, 14, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.5, 8]},
+			"faces": {
+				"north": {"uv": [9.66667, 5.66666, 9.66667, 6.33333], "texture": "#0"},
+				"east": {"uv": [8, 5.5, 9.66667, 6.16666], "texture": "#0"},
+				"south": {"uv": [3.33333, 5.66666, 3.33333, 6.33333], "texture": "#0"},
+				"west": {"uv": [9.66667, 5.5, 11.33333, 6.16666], "texture": "#0"},
+				"up": {"uv": [9.66667, 5.66666, 9.66667, 4], "texture": "#0"},
+				"down": {"uv": [9.66667, 4, 9.66667, 5.66666], "texture": "#0"}
+			}
+		},
+		{
+			"name": "lid",
+			"from": [2.5, 6, 2.5],
+			"to": [13.5, 10, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.5, 7, 2.5]},
+			"faces": {
+				"north": {"uv": [9.66667, 1.66667, 11.33333, 2.33333], "texture": "#0"},
+				"east": {"uv": [8, 1.66667, 9.66667, 2.33333], "texture": "#0"},
+				"south": {"uv": [13, 1.66667, 14.66667, 2.33333], "texture": "#0"},
+				"west": {"uv": [11.33333, 1.66667, 13, 2.33333], "texture": "#0"},
+				"up": {"uv": [11.33333, 1.66667, 9.66667, 0], "texture": "#0"},
+				"down": {"uv": [13, 0, 11.33333, 1.66667], "texture": "#0"}
+			}
+		},
+		{
+			"name": "box",
+			"from": [3, 0, 3],
+			"to": [13, 6, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 3]},
+			"faces": {
+				"north": {"uv": [9.66667, 4.16667, 11.33333, 5.16667], "texture": "#0"},
+				"east": {"uv": [8, 4.16667, 9.66667, 5.16667], "texture": "#0"},
+				"south": {"uv": [13, 4.16667, 14.66667, 5.16667], "texture": "#0"},
+				"west": {"uv": [11.33333, 4.16667, 13, 5.16667], "texture": "#0"},
+				"up": {"uv": [11.33333, 4.16667, 9.66667, 2.5], "texture": "#0"},
+				"down": {"uv": [13, 2.5, 11.33333, 4.16667], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -16.75, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "gift",
+			"origin": [3, 0, 3],
+			"color": 0,
+			"children": [
+				{
+					"name": "bow",
+					"origin": [8, 12.5, 8],
+					"color": 0,
+					"children": [0, 1]
+				},
+				2,
+				3
+			]
+		}
+	]
+}

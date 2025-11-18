@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": "minecraft:paper"
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "santas_delight:item/gift",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true,
+        "Tags": [
+          "santas_delight.decoration.gift.create"
+        ]
+      },
+      "minecraft:item_name": {
+        "color": "white",
+        "text": "Gift"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}
