@@ -7,8 +7,8 @@ as @e[type=item_frame,tag=santas_delight.decoration.garland.create] at @s:
     data modify entity @n[type=marker,tag=santas_delight.decoration.garland.temp] Rotation set from entity @s Rotation
     as @e[type=marker,tag=santas_delight.decoration.garland.temp]:
         function santas_delight:move_to_center
-        at @s positioned ~ ~-0.5 ~:
-            positioned ^ ^ ^-0.7 if entity @e[type=interaction,tag=santas_delight.decoration.garland.interaction,distance=..0.01] run return run function ./remove_only_self
+        at @s positioned ^ ^-0.5 ^-0.5:
+            positioned ^ ^ ^-0.39 if entity @e[type=interaction,tag=santas_delight.decoration.garland.interaction,distance=..0.01] run return run function ./remove_only_self
             function ./create
         kill @s
     kill @s
