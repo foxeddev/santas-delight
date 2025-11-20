@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": "minecraft:sugar",
+    "R": "minecraft:red_dye"
+  },
+  "pattern": [
+    " S ",
+    " R ",
+    " S "
+  ],
+  "ingredients": [
+    "minecraft:sugar",
+    "minecraft:red_dye",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "santas_delight:item/candy_cane",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true,
+        "Tags": [
+          "santas_delight.decoration.candy_cane.create"
+        ]
+      },
+      "minecraft:item_name": {
+        "color": "white",
+        "text": "Candy Cane"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}

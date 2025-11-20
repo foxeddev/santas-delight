@@ -1,0 +1,7 @@
+{
+	"credit": "Made by BronGhast014 with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "santas_delight:item/item/candy_cane"
+	}
+}
