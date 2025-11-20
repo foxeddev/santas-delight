@@ -5,4 +5,6 @@ summon interaction ~ ~ ~ {width:0.65f,height:0.65f,response:1b,Tags:["santas_del
 
 store result score #variant temp run random value 1..4
 for i in range(1, 5):
-    if score #variant temp matches i run data modify entity @n[type=item_display,tag=new] item.components."minecraft:item_model" set value f"santas_delight:decoration/gift_{i}"
+    if score #variant temp matches i as @n[type=item_display,tag=new]:
+        data modify entity @s item.components."minecraft:item_model" set value f"santas_delight:decoration/gift_{i}_open"
+        data modify entity @s data.santas_delight.gift.variant set value i
