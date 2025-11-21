@@ -6,6 +6,7 @@ This datapack adds lots of new Christmas decorations to your Minecraft world!
 
 **[<kbd> <br> Features <br> </kbd>](#-features)**
 **[<kbd> <br> Installation <br> </kbd>](#-installation)**
+**[<kbd> <br> Recipes <br> </kbd>](#-recipes)**
 **[<kbd> <br> Credits <br> </kbd>](#-credits)**
 
 </div>
@@ -47,6 +48,64 @@ Can be decorated with ornaments for extra festivity.
 5. Enable the included resource pack.
 
 6. Enjoy the festive decorations!
+
+## 🧾 **Recipes**
+
+<details>
+  <summary>Tree Decorations</summary>
+
+![Tree Decorations](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/tree_decorations.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Wreath</summary>
+
+![Wreath](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/wreath.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Garland</summary>
+
+![Garland](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/garland.png?raw=true)
+
+</details>
+
+<details>
+  <summary>String Lights</summary>
+
+![String Lights](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/lights.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Red Stocking</summary>
+
+![Red Stocking](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/stocking_red.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Green Stocking</summary>
+
+![Green Stocking](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/stocking_green.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Gift</summary>
+
+![Gift](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/gift.png?raw=true)
+
+</details>
+
+<details>
+  <summary>Candy Cane</summary>
+
+![Candy Cane](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/candy_cane.png?raw=true)
+
+</details>
 
 ## 📦 Credits
 
