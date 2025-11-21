@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "W": "minecraft:white_wool",
-    "R": "minecraft:green_wool"
+    "G": "minecraft:green_wool"
   },
   "pattern": [
     "W ",
-    " R"
+    " G"
   ],
   "result": {
     "components": {
