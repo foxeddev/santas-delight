@@ -18,11 +18,11 @@ for img in "$SRC_DIR"/*; do
 
     echo "Processing $filename ..."
 
-    # 1. Crop the source image
-    convert "$img" -crop "$CROP_GEOMETRY" "$cropped"
+    # 1. Crop source image
+    magick "$img" -crop "$CROP_GEOMETRY" "$cropped"
 
-    # 2. Overlay cropped image onto base at (56,10)
-    composite \
+    # 2. Place cropped image on base
+    magick composite \
         -geometry +${OFFSET_X}+${OFFSET_Y} \
         "$cropped" \
         "$BASE_IMAGE" \
