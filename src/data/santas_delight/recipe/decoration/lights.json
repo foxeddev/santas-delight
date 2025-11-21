@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "S": "minecraft:string",
+    "L": "minecraft:lime_stained_glass",
     "R": "minecraft:red_stained_glass",
-    "G": "minecraft:green_stained_glass"
+    "Y": "minecraft:yellow_stained_glass"
   },
   "pattern": [
     " S ",
-    "RGR"
+    "LRY"
   ],
   "result": {
     "components": {
