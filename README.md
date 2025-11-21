@@ -4,7 +4,6 @@
 
 This datapack adds lots of new Christmas decorations to your Minecraft world!
 
-
 **[<kbd> <br> Features <br> </kbd>](#-features)**
 **[<kbd> <br> Installation <br> </kbd>](#-installation)**
 **[<kbd> <br> Credits <br> </kbd>](#-credits)**
@@ -15,31 +14,29 @@ This datapack adds lots of new Christmas decorations to your Minecraft world!
 
 ### 🎁 Presents
 
-- Fully functional gift boxes that can hold a single item
-
-Great for servers, advent calendars, or hidden surprises
+Fully functional gift boxes that can hold a single item.
+Great for servers, advent calendars, or hidden surprises.
 
 ### 🎄 Christmas Tree
 
-- Simply bonemeal a potted spruce sapling to grow a decorated mini tree
-
-- Can be decorated with ornaments for extra festivity!
+Simply bonemeal a potted spruce sapling to grow a mini tree for your home.
+Can be decorated with ornaments for extra festivity.
 
 ### 🏠 Other Decorations
 
-- String Lights – hang glowing lights anywhere
+**String Lights** – hang glowing lights anywhere
 
-- Garland – perfect for walls, mantles, and cozy builds
+**Garland** – perfect for walls, mantles, and cozy builds
 
-- Wreath – a classic holiday touch for doorways
+**Wreath** – a classic holiday touch for doorways
 
-- Big Candy Cane – sweet striped decoration block
+**Big Candy Cane** – sweet striped decoration block
 
-- Stockings – can hold one item, just like real stockings!
+**Stockings** – can hold an item, just like real stockings
 
 ## 📥 Installation
 
-1. Download the [datapack](https://modrinth.com/project/santas-delight)  and the [resource pack](https://modrinth.com/project/santas-delight/versions) from Modrinth.
+1. Download the [datapack](https://modrinth.com/project/santas-delight) and the [resource pack](https://modrinth.com/project/santas-delight/versions) from Modrinth.
 
 2. Open your world folder.
 
