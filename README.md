@@ -6,8 +6,8 @@ This datapack adds lots of new Christmas decorations to your Minecraft world!
 
 
 **[<kbd> <br> Features <br> </kbd>](#-features)**
-**[<kbd> <br> Installation <br> </kbd>](#-installation**)**
-**[<kbd> <br> Credits <br> </kbd>](#-credits**)**
+**[<kbd> <br> Installation <br> </kbd>](#-installation)**
+**[<kbd> <br> Credits <br> </kbd>](#-credits)**
 
 </div>
 
