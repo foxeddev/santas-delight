@@ -54,56 +54,56 @@ Can be decorated with ornaments for extra festivity.
 <details>
   <summary>Tree Decorations</summary>
 
-![Tree Decorations](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/tree_decorations.png?raw=true)
+![Tree Decorations](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/tree_decorations.png?raw=true)
 
 </details>
 
 <details>
   <summary>Wreath</summary>
 
-![Wreath](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/wreath.png?raw=true)
+![Wreath](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/wreath.png?raw=true)
 
 </details>
 
 <details>
   <summary>Garland</summary>
 
-![Garland](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/garland.png?raw=true)
+![Garland](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/garland.png?raw=true)
 
 </details>
 
 <details>
   <summary>String Lights</summary>
 
-![String Lights](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/lights.png?raw=true)
+![String Lights](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/lights.png?raw=true)
 
 </details>
 
 <details>
   <summary>Red Stocking</summary>
 
-![Red Stocking](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/stocking_red.png?raw=true)
+![Red Stocking](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/stocking_red.png?raw=true)
 
 </details>
 
 <details>
   <summary>Green Stocking</summary>
 
-![Green Stocking](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/stocking_green.png?raw=true)
+![Green Stocking](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/stocking_green.png?raw=true)
 
 </details>
 
 <details>
   <summary>Gift</summary>
 
-![Gift](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/gift.png?raw=true)
+![Gift](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/gift.png?raw=true)
 
 </details>
 
 <details>
   <summary>Candy Cane</summary>
 
-![Candy Cane](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/output/candy_cane.png?raw=true)
+![Candy Cane](https://github.com/foxeddev/santas-delight/blob/main/assets/recipes/candy_cane.png?raw=true)
 
 </details>
 
