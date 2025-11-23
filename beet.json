@@ -11,12 +11,26 @@
   "data_pack": {
     "load": [
       "src"
-    ]
+    ],
+    "pack_format": 88,
+    "supported_formats": {
+      "min_inclusive": 61,
+      "max_inclusive": 88
+    },
+    "min_format": 61,
+    "max_format": 88
   },
   "resource_pack": {
     "load": [
       "src"
-    ]
+    ],
+    "pack_format": 69,
+    "supported_formats": {
+      "min_inclusive": 46,
+      "max_inclusive": 69
+    },
+    "min_format": 46,
+    "max_format": 69
   },
   "pipeline": [
     "build.main",
