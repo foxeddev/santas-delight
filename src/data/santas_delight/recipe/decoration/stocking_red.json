@@ -20,7 +20,8 @@
       },
       "minecraft:item_name": {
         "color": "white",
-        "text": "Red Stocking"
+        "translate": "santas_delight.stocking_red",
+        "fallback": "Red Stocking"
       }
     },
     "count": 1,

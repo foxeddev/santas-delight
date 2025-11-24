@@ -31,7 +31,8 @@
               "name": [
                 {
                   "color": "white",
-                  "text": "Garland"
+                  "translate": "santas_delight.garland",
+                  "fallback": "Garland"
                 }
               ],
               "target": "item_name"

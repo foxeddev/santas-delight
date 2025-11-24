@@ -26,7 +26,8 @@
       },
       "minecraft:item_name": {
         "color": "white",
-        "text": "Candy Cane"
+        "translate": "santas_delight.candy_cane",
+        "fallback": "Candy Cane"
       }
     },
     "count": 1,

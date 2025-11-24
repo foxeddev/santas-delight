@@ -31,7 +31,8 @@
               "name": [
                 {
                   "color": "white",
-                  "text": "Wreath"
+                  "translate": "santas_delight.wreath",
+                  "fallback": "Wreath"
                 }
               ],
               "target": "item_name"

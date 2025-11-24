@@ -20,7 +20,8 @@
       },
       "minecraft:item_name": {
         "color": "white",
-        "text": "Gift"
+        "translate": "santas_delight.gift",
+        "fallback": "Gift"
       }
     },
     "count": 1,

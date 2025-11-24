@@ -31,7 +31,8 @@
               "name": [
                 {
                   "color": "white",
-                  "text": "Christmas Tree"
+                  "translate": "santas_delight.tree",
+                  "fallback": "Christmas Tree"
                 }
               ],
               "target": "item_name"

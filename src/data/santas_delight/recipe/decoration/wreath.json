@@ -21,7 +21,8 @@
       },
       "minecraft:item_name": {
         "color": "white",
-        "text": "Wreath"
+        "translate": "santas_delight.wreath",
+        "fallback": "Wreath"
       }
     },
     "count": 1,

@@ -31,7 +31,8 @@
               "name": [
                 {
                   "color": "white",
-                  "text": "Candy Cane"
+                  "translate": "santas_delight.candy_cane",
+                  "fallback": "Candy Cane"
                 }
               ],
               "target": "item_name"
