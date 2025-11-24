@@ -16,7 +16,7 @@ as @e[type=interaction,tag=santas_delight.decoration.wreath.interaction] at @s:
     if data entity @s interaction:
         data modify storage santas_delight:temp rotation set from entity @s Rotation[1]
         if data storage santas_delight:temp {rotation:-90f}:
-            positioned ~ ~0.45 ~ positioned ^ ^ ^0.25 as @e[type=item_display,tag=santas_delight.decoration.wreath.display,distance=..0.01] at @s rotate @s ~90 ~
+            positioned ~ ~0.45 ~ positioned ^ ^ ^0.26 as @e[type=item_display,tag=santas_delight.decoration.wreath.display,distance=..0.01] at @s rotate @s ~90 ~
         data remove storage santas_delight:temp rotation
         data remove entity @s interaction
 
