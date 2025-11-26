@@ -22,7 +22,7 @@
       },
       "minecraft:item_name": {
         "color": "white",
-        "text": "Christmas Tree Decorations"
+        "translate": "santas_delight.tree_decorations"
       }
     },
     "count": 1,

@@ -31,8 +31,7 @@
               "name": [
                 {
                   "color": "white",
-                  "translate": "santas_delight.stocking_green",
-                  "fallback": "Green Stocking"
+                  "translate": "santas_delight.stocking_green"
                 }
               ],
               "target": "item_name"

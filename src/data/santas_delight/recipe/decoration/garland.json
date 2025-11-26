@@ -21,8 +21,7 @@
       },
       "minecraft:item_name": {
         "color": "white",
-        "translate": "santas_delight.garland",
-        "fallback": "Garland"
+        "translate": "santas_delight.garland"
       }
     },
     "count": 1,

@@ -29,8 +29,7 @@
               "name": [
                 {
                   "color": "white",
-                  "translate": "santas_delight.tree_decorations",
-                  "fallback": "Christmas Tree Decorations"
+                  "translate": "santas_delight.tree_decorations"
                 }
               ],
               "target": "item_name"

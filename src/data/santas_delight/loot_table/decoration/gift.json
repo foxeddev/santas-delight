@@ -31,8 +31,7 @@
               "name": [
                 {
                   "color": "white",
-                  "translate": "santas_delight.gift",
-                  "fallback": "Gift"
+                  "translate": "santas_delight.gift"
                 }
               ],
               "target": "item_name"
