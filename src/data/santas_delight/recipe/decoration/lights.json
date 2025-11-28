@@ -20,6 +20,11 @@
           "santas_delight.decoration.lights.create"
         ]
       },
+      "custom_data": {
+        "santas_delight": {
+          "item": "lights"
+        }
+      },
       "minecraft:item_name": {
         "color": "white",
         "translate": "santas_delight.lights"

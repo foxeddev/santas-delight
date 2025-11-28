@@ -18,6 +18,11 @@
           "santas_delight.decoration.stocking_green.create"
         ]
       },
+      "custom_data": {
+        "santas_delight": {
+          "item": "stocking_green"
+        }
+      },
       "minecraft:item_name": {
         "color": "white",
         "translate": "santas_delight.stocking_green"

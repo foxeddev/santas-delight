@@ -24,6 +24,11 @@
           "santas_delight.decoration.candy_cane.create"
         ]
       },
+      "custom_data": {
+        "santas_delight": {
+          "item": "candy_cane"
+        }
+      },
       "minecraft:item_name": {
         "color": "white",
         "translate": "santas_delight.candy_cane"

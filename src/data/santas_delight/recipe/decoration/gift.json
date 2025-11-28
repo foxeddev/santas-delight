@@ -18,6 +18,11 @@
           "santas_delight.decoration.gift.create"
         ]
       },
+      "custom_data": {
+        "santas_delight": {
+          "item": "gift"
+        }
+      },
       "minecraft:item_name": {
         "color": "white",
         "translate": "santas_delight.gift"

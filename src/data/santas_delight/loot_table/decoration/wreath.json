@@ -17,6 +17,11 @@
               "function": "set_components",
               "components": {
                 "minecraft:item_model": "santas_delight:item/wreath",
+                "minecraft:custom_data": {
+                  "santas_delight": {
+                    "item": "wreath"
+                  }
+                },
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
                   "Invisible": true,
