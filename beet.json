@@ -12,24 +12,24 @@
     "load": [
       "src"
     ],
-    "pack_format": 88,
+    "pack_format": 71,
     "supported_formats": {
-      "min_inclusive": 61,
+      "min_inclusive": 71,
       "max_inclusive": 88
     },
-    "min_format": 61,
+    "min_format": 71,
     "max_format": 88
   },
   "resource_pack": {
     "load": [
       "src"
     ],
-    "pack_format": 69,
+    "pack_format": 55,
     "supported_formats": {
-      "min_inclusive": 46,
+      "min_inclusive": 55,
       "max_inclusive": 69
     },
-    "min_format": 46,
+    "min_format": 55,
     "max_format": 69
   },
   "pipeline": [
