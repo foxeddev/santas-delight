@@ -1,11 +1,19 @@
 {
   "santas_delight.tree": "Christmas Tree",
-  "santas_delight.tree_decorations": "Christmas Tree Decoration",
+  "santas_delight.tree_decorations": "Christmas Tree Decorations",
   "santas_delight.wreath": "Wreath",
   "santas_delight.garland": "Garland",
   "santas_delight.lights": "String Lights",
   "santas_delight.stocking_red": "Red Stocking",
   "santas_delight.stocking_green": "Green Stocking",
   "santas_delight.gift": "Gift",
-  "santas_delight.candy_cane": "Candy Cane"
+  "santas_delight.candy_cane": "Candy Cane",
+  "santas_delight.advancement.root.title": "Santa's Delight",
+  "santas_delight.advancement.root.description": "Christmas advancements added by the Santa's Delight datapack",
+  "santas_delight.advancement.create_tree.title": "The Needle In The Christmas Tree",
+  "santas_delight.advancement.create_tree.description": "Bonemeal a potted spruce sapling to create a Christmas tree",
+  "santas_delight.advancement.use_tree_decorations.title": "Star Included",
+  "santas_delight.advancement.use_tree_decorations.description": "Put decorations on a Christmas tree",
+  "santas_delight.advancement.get_lights.title": "Power Via USB Charger Block",
+  "santas_delight.advancement.get_lights.description": "Craft some string lights"
 }
