@@ -1,0 +1,36 @@
+{
+  "parent": "santas_delight:root",
+  "criteria": {
+    "get_lights": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "santas_delight": {
+                  "item": "lights"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "santas_delight.advancement.get_lights.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "santas_delight:item/lights"
+      },
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "santas_delight.advancement.get_lights.title"
+    }
+  }
+}

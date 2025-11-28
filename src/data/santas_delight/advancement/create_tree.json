@@ -1,0 +1,30 @@
+{
+  "parent": "santas_delight:root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "santas_delight.advancement.create_tree.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "santas_delight:item/tree"
+      },
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "santas_delight.advancement.create_tree.title"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "santas_delight:item/tree_decorations",
+      "santas_delight:decoration/garland",
+      "santas_delight:decoration/wreath"
+    ]
+  }
+}

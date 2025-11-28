@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "santas_delight.advancement.root.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "santas_delight:icon"
+      },
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "santas_delight.advancement.root.title"
+    },
+    "background": "minecraft:block/blue_ice",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "recipes": [
+      "santas_delight:decoration/lights",
+      "santas_delight:decoration/stocking_red",
+      "santas_delight:decoration/stocking_green",
+      "santas_delight:decoration/gift",
+      "santas_delight:decoration/candy_cane"
+    ]
+  }
+}

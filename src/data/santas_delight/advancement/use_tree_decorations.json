@@ -1,0 +1,23 @@
+{
+  "parent": "santas_delight:create_tree",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "santas_delight.advancement.use_tree_decorations.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "santas_delight:item/tree_decorations"
+      },
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "santas_delight.advancement.use_tree_decorations.title"
+    }
+  }
+}

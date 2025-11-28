@@ -1,6 +1,8 @@
 as @e[type=interaction,tag=santas_delight.decoration.tree.create] at @s:
     if data entity @s interaction:
-        on target run clear @s minecraft:bone_meal 1
+        on target:
+            clear @s minecraft:bone_meal 1
+            advancement grant @s only santas_delight:create_tree
         particle happy_villager ~ ~ ~ 0.2 0.2 0.2 0 32 normal
         playsound minecraft:item.bone_meal.use block @a ~ ~ ~
         function ./create
@@ -35,7 +37,9 @@ as @e[type=interaction,tag=santas_delight.decoration.tree.interaction] at @s:
     if entity @a[tag=current_player] if entity @s[tag=!has_decorations]:
         data modify entity @n[type=item_display,tag=current_display] item.components."minecraft:item_model" set value "santas_delight:decoration/tree_decorated"
         tag @s add has_decorations
-        clear @a[tag=current_player] *[minecraft:custom_data={"santas_delight":{"item":"tree_decorations"}}] 1
+        as @a[tag=current_player]:
+            clear @s *[minecraft:custom_data={"santas_delight":{"item":"tree_decorations"}}] 1
+            advancement grant @s only santas_delight:use_tree_decorations
         data remove entity @s interaction
 
     tag @a remove current_player
