@@ -7,5 +7,13 @@
   "santas_delight.stocking_red": "Roter Strumpf",
   "santas_delight.stocking_green": "Grüner Strumpf",
   "santas_delight.gift": "Geschenk",
-  "santas_delight.candy_cane": "Zuckerstange"
+  "santas_delight.candy_cane": "Zuckerstange",
+  "santas_delight.advancement.root.title": "Santa's Delight",
+  "santas_delight.advancement.root.description": "Weihnachtsfortschritte, die durch das Santa's Delight-Datenpaket hinzugefügt werden",
+  "santas_delight.advancement.create_tree.title": "Die Nadel im Weihnachtsbaum",
+  "santas_delight.advancement.create_tree.description": "Verwende Knochenmehl auf einem eingetopften Fichtensetzling, um einen Weihnachtsbaum zu erschaffen",
+  "santas_delight.advancement.use_tree_decorations.title": "Stern inklusive",
+  "santas_delight.advancement.use_tree_decorations.description": "Bringe Dekorationen an einem Weihnachtsbaum an",
+  "santas_delight.advancement.get_lights.title": "Per USB-Ladegerät betrieben",
+  "santas_delight.advancement.get_lights.description": "Stelle Lichterketten her"
 }
