@@ -15,6 +15,11 @@ as @e[type=item_frame,tag=santas_delight.decoration.lights.create] at @s:
 
 as @e[type=interaction,tag=santas_delight.decoration.lights.interaction] at @s:
     fill ^ ^ ^1 ^ ^ ^1 light replace air
-    if data entity @s attack run function ./remove
+
+    if data entity @s attack:
+        on attacker if entity @s[gamemode=adventure] run return fail
+        function ./remove
+    data remove entity @s attack
+
     if block ~ ~ ~ #minecraft:replaceable run function ./remove
     unless block ^ ^ ^1 #minecraft:replaceable run function ./remove

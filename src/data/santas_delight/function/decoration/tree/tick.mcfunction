@@ -58,7 +58,11 @@ as @e[type=interaction,tag=santas_delight.decoration.tree.interaction] at @s:
     tag @e[type=interaction,tag=current_interaction] remove current_interaction
     tag @e[type=item_display,tag=current_display] remove current_display
 
-    if data entity @s attack run function ./remove
+    if data entity @s attack:
+        on attacker if entity @s[gamemode=adventure] run return fail
+        function ./remove
+    data remove entity @s attack
+
     if block ~ ~-1 ~ #minecraft:replaceable run function ./remove
     for i in range(0, 3):
         unless block ~ ~i ~ #minecraft:replaceable run function ./remove

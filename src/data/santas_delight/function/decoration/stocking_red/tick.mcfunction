@@ -35,6 +35,10 @@ as @e[type=interaction,tag=santas_delight.decoration.stocking_red.interaction] a
 
     tag @s remove current_interaction
 
-    if data entity @s attack run function ./remove
+    if data entity @s attack:
+        on attacker if entity @s[gamemode=adventure] run return fail
+        function ./remove
+    data remove entity @s attack
+
     if block ~ ~ ~ #minecraft:replaceable run function ./remove
     unless block ^ ^ ^1 #minecraft:replaceable run function ./remove

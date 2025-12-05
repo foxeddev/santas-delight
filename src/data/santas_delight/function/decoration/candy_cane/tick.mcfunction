@@ -11,7 +11,11 @@ as @e[type=interaction,tag=santas_delight.decoration.candy_cane.interaction] at 
         as @e[type=item_display,tag=santas_delight.decoration.candy_cane.display,distance=..0.01] at @s rotate @s ~45 ~
         data remove entity @s interaction
 
-    if data entity @s attack run function ./remove
+    if data entity @s attack:
+        on attacker if entity @s[gamemode=adventure] run return fail
+        function ./remove
+    data remove entity @s attack
+
     if block ~ ~-1 ~ #minecraft:replaceable run function ./remove
     for i in range(0, 3):
         unless block ~ ~i ~ #minecraft:replaceable run function ./remove

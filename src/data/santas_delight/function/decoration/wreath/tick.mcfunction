@@ -20,6 +20,10 @@ as @e[type=interaction,tag=santas_delight.decoration.wreath.interaction] at @s:
         data remove storage santas_delight:temp rotation
         data remove entity @s interaction
 
-    if data entity @s attack run function ./remove
+    if data entity @s attack:
+        on attacker if entity @s[gamemode=adventure] run return fail
+        function ./remove
+    data remove entity @s attack
+
     if block ~ ~0.45 ~ #minecraft:replaceable run function ./remove
     positioned ~ ~0.45 ~ unless block ^ ^ ^1 #minecraft:replaceable positioned ~ ~-0.45 ~ run function ./remove
