@@ -26,4 +26,4 @@ as @e[type=interaction,tag=santas_delight.decoration.wreath.interaction] at @s:
     data remove entity @s attack
 
     if block ~ ~0.45 ~ #minecraft:replaceable run function ./remove
-    positioned ~ ~0.45 ~ unless block ^ ^ ^1 #minecraft:replaceable positioned ~ ~-0.45 ~ run function ./remove
+    positioned ~ ~0.45 ~ unless block ^ ^ ^1 #minecraft:replaceable unless block ^ ^ ^1 #minecraft:candles positioned ~ ~-0.45 ~ run function ./remove
