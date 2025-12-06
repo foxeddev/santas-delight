@@ -7,7 +7,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:command_block",
+          "name": "minecraft:recovery_compass",
           "functions": [
             {
               "function": "set_count",
