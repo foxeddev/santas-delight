@@ -15,10 +15,10 @@
     "pack_format": 71,
     "supported_formats": {
       "min_inclusive": 71,
-      "max_inclusive": 88
+      "max_inclusive": 94.1
     },
     "min_format": 71,
-    "max_format": 88
+    "max_format": 94.1
   },
   "resource_pack": {
     "load": [
@@ -27,10 +27,10 @@
     "pack_format": 55,
     "supported_formats": {
       "min_inclusive": 55,
-      "max_inclusive": 69
+      "max_inclusive": 75
     },
     "min_format": 55,
-    "max_format": 69
+    "max_format": 75
   },
   "pipeline": [
     "build.main",
